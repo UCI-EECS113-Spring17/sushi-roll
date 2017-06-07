@@ -1,0 +1,5 @@
+- Put this folder in to the PYNQ-master\Pynq-z1\sdk
+- Add pmod_acl.bin to the make file that located in sdk folder.
+- Copy the pmod_acl.bin in PYNQ-master\Pynq-z1\sdk\pmod_acl\Debug to the folder python\iop on the pynq board.
+- Copy the pmod_acl.py in PYNQ-master\Pynq-z1\sdk\pmod_acl\python to the folder python\iop on the pynq board.
+- Add from pmod_acl import Pmod_ACL to the the __init__.py
